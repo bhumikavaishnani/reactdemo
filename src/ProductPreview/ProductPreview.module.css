@@ -1,0 +1,50 @@
+.ProductPreview{
+    width: 50%;
+    position: relative;
+  }
+  
+  .ProductPreview > img{
+    width: 100% !important;
+  }
+  
+  .featureData{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 24px;
+    
+  }
+  
+  .HeartBeatSection{
+    position: absolute;
+    top:56%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 30px;
+  }
+  
+  .HeartBeatSection > p{
+    margin-top: 0px;
+  }
+  
+  .HeartBeatSection > svg{
+    color: red;
+    animation: beat 1s infinite;
+  }
+  
+  @keyframes beat {
+    0%{
+      transform: scale(1,1);
+    }
+     50%{
+      transform: scale(1.2,1.2);
+     }
+  
+     100%{
+      transform: scale(1,1);
+     }
+  }
+  
